@@ -39,6 +39,22 @@ testando o uso do aws s3 e coisa e tal
 npm install
 ```
 
+# para rodar no nodejs
+```
+node main.js
+```
+
+# para rodar no php
+```
+php -S localhost:8000 index.php
+```
+
+# instalação
+```
+composer require aws/aws-sdk-php vlucas/phpdotenv
+```
+
+
 ## variáveis de ambiente
 
 Crie um arquivo `.env` na raiz do projeto:
