@@ -76,3 +76,9 @@ curl.exe -X POST http://localhost:3000/upload -F "file=@caminho/para/arquivo.txt
 ```bash
 curl.exe "http://localhost:3000/file?key=uploads/user/arquivo.txt"
 ```
+
+## notas
+
+A vantagem(e recomendação do AWS) de usar URL temporária é que pela URL pública qualquer um pode acessar pra sempre sem controle de quem recebe a URL.
+lembrar de sempre apagar os arquivos no tmp.
+sempre manter o bucket em acesso privado para evitar vazamento de dados.
