@@ -67,12 +67,6 @@ AWS_BUCKET=nome-do-bucket
 PORT=3000
 ```
 
-## testando
-
-```bash
-node main.js
-```
-
 ## Rotas
 
 | Método | Rota | Descrição |
